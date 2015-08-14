@@ -48,10 +48,10 @@ Laravel 5 Package Boilerplate
 
 See the bellow snippets.
 
-	```php
-    $myPackage = $this->app['MyPackageClass'];
-    echo $myPackage::sayHi();
-	```
+```php
+$myPackage = $this->app['MyPackageClass'];
+echo $myPackage::sayHi();
+```
 
 ##Author
 
