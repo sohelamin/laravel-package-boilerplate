@@ -1,0 +1,21 @@
+{
+    "name": "my-vendor/my-package",
+    "license": "MIT",
+    "description": "Description about your package",
+    "keywords": [],    
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "email@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyVendor\\MyPackage\\": "src/"
+        }
+    }  
+}
