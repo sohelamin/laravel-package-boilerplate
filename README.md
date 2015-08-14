@@ -16,14 +16,13 @@ Laravel 5 Package Boilerplate
 2. Clone the package's boilerplate from github repo into your vendor's package directory.
     ```
     git clone https://github.com/sohelamin/laravel-package-boilerplate.git my-package
-    cd my-package
     ```
 
 3. Add your package dir to your project's main **composer.json** file.
     ```
     "psr-4": {
         "App\\": "app/",
-        "MyVendor\\MyPackage\\": "vendor/my-vendor/my-package"
+        "MyVendor\\MyPackage\\": "vendor/my-vendor/my-package/src"
     }
     ```
   Note: When you will submit your package to **packagist.org** for composer package then you don't need to follow above instruction #3.
@@ -37,7 +36,7 @@ Laravel 5 Package Boilerplate
     ],
 	```
 
-5. Run.
+5. Navigate to your project directory and run.
     ```
     composer dump-autoload
     composer update
