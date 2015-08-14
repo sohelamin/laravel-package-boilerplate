@@ -48,11 +48,9 @@ Laravel 5 Package Boilerplate
 
 See the bellow snippets.
 
-    ```php
-    
+	```php
     $MyPackageClass = $this->app['MyPackageClass'];
     echo $MyPackageClass::sayHi();
-    
 	```
 
 ##Author
