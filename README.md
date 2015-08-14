@@ -33,7 +33,7 @@ Laravel 5 Package Boilerplate
     'providers' => [
         ...
     
-        MyVendor\MyPackage\MyPackageServiceProvider::class,,
+        MyVendor\MyPackage\MyPackageServiceProvider::class,
     ],
 	```
 
@@ -49,8 +49,8 @@ Laravel 5 Package Boilerplate
 See the bellow snippets.
 
 	```php
-    $MyPackageClass = $this->app['MyPackageClass'];
-    echo $MyPackageClass::sayHi();
+    $myPackage = $this->app['MyPackageClass'];
+    echo $myPackage::sayHi();
 	```
 
 ##Author
